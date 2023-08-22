@@ -2,7 +2,7 @@
 
 刷足迹噻
 
-##开权限
+## 开权限
 
 Settings -> Action -> General -> Workflow permissions and choose read and write permissions
 
