@@ -21,7 +21,7 @@ jobs:
           git config --local user.name "xmanv"
           git remote set-url origin https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
           git pull --rebase
-          touch a.html 
+          echo '#' > README.md
           git add .
           git commit --allow-empty -m "a commit a day keeps your girlfriend away"
           git push
