@@ -23,5 +23,5 @@ jobs:
           git pull --rebase
           echo '#' >> a.html
           git add .
-          git commit --allow-empty -m "a commit a day keeps your girlfriend away"
+          git commit --allow-empty -m "one commit one day keeps your girlfriend away"
           git push
